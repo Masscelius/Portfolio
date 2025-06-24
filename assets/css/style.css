@@ -707,3 +707,37 @@ a, button {
     background-attachment: scroll; /* prevent glitchy background on mobile */
   }
 }
+
+@media (max-width: 768px) {
+  .hero-parallax {
+    height: auto;
+    padding: 3rem 1.5rem;
+    background-attachment: scroll; /* avoid parallax issues on iOS */
+  }
+
+  .hero-parallax h1 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-parallax p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .hero-parallax .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .call-to-action a {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .featured-projects h2 {
+    font-size: 1.5rem;
+  }
+}
